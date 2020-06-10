@@ -1,6 +1,6 @@
 # This is a basic workflow to help you get started with Actions
 
-name: Deploy Website
+name: Deploy Website reactassgn1
 
 # Controls when the action will run. Triggers the workflow on push or pull request
 # events but only for the master branch
@@ -31,7 +31,7 @@ jobs:
           
     - name: Build with yarn
       run: yarn build
-      
+
     - name: Install Surge
       run: npm install -g surge
     - name: Run Surge
